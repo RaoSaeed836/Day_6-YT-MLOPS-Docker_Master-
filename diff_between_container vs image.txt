@@ -1,0 +1,16 @@
+
+ Docker image is a static, read-only template (blueprint) containing application code and dependencies, while a container is a runnable, mutable, and active instance of that image. Images are stored in registries and are immutable, whereas containers are lightweight, ephemeral runtime environments, often described as a "running" vs "stored" state. 
+
+Key Differences Between Containers and Images
+
+
+State: Images are immutable (unchangeable) snapshots. Containers are mutable and live, storing runtime changes in a writable layer.
+Purpose: Images are used for storing and shipping applications. Containers are used for running and testing applications.
+Storage: Images are saved as files on disk. Containers exist in system RAM.
+Relationship: One image can be used to launch multiple, independent containers.
+Components: Images are made of read-only layers. Containers consist of an image layer plus a thin, writable container layer. 
+
+
+Summary Analogy
+Image: The recipe or the blueprint.
+Container: The cake made from the recipe or the building constructed from the blueprint. 
